@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/providers.tsx","./src/config.ts","./src/main.tsx","./src/useprogram.ts","./src/vite-env.d.ts","./src/idl/redbutton.ts"],"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/providers.tsx","./src/config.ts","./src/main.tsx","./src/polyfills.ts","./src/useprogram.ts","./src/vite-env.d.ts","./src/idl/redbutton.ts"],"version":"5.9.3"}

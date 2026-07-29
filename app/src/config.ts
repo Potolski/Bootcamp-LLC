@@ -14,7 +14,8 @@ export const TREASURY = new PublicKey(
 );
 
 // The single global billboard PDA: seeds = ["billboard"].
+// Use TextEncoder (not Buffer) so this module never depends on polyfill order.
 export const [BILLBOARD_PDA] = PublicKey.findProgramAddressSync(
-  [Buffer.from("billboard")],
+  [new TextEncoder().encode("billboard")],
   PROGRAM_ID
 );

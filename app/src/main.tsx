@@ -1,7 +1,4 @@
-import { Buffer } from "buffer";
-// Polyfill Node globals required by the Solana wallet-adapter stack.
-window.Buffer = window.Buffer ?? Buffer;
-(window as any).global = window.globalThis;
+import "./polyfills";
 
 import React from "react";
 import ReactDOM from "react-dom/client";
